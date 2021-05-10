@@ -26,10 +26,6 @@ public class Golpes extends Monstros {
         String elementoJogador = jogadorAtacante == 1
                 ? jogador1.elemento[jogador1.monstros[jogador1.monstroSelecionado]]
                 : jogador2.elemento[jogador2.monstros[jogador2.monstroSelecionado]];
-        // System.out.println("Monstro Jogador1: " + monstrojogador1);
-        // System.out.println("Monstro Selecionado Jogador1: " +
-        // jogador1.monstros[jogador1.monstroSelecionado]);
-        // System.out.println(jogador1.elemento[jogador1.monstros[jogador1.monstroSelecionado]]);
 
         switch (elementoJogador) {
             case "Fogo":
