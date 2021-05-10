@@ -51,7 +51,7 @@ public class Acoes{
             respMenu = ler.nextInt();
             switch (respMenu) {
                 case 1:
-                    while (teste == true) {
+                    do {
                         for (int c = 0; c < 3; c++) {
                             if (jogador.monstros[c] == 0) {
                                 teste = true;
@@ -64,10 +64,10 @@ public class Acoes{
                             x++;
                             teste = false;
                         }
-                    }
+                    }while (teste == true);
                     break;
                 case 2:
-                    while (teste == true) {
+                    do {
                         for (int c = 0; c < 3; c++) {
                             if (jogador.monstros[c] == 1) {
                                 teste = true;
@@ -80,10 +80,10 @@ public class Acoes{
                             x++;
                             teste = false;
                         }
-                    }
+                    }while (teste == true);
                     break;
                 case 3:
-                    while (teste == true) {
+                     do{
                         for (int c = 0; c < 3; c++) {
                             if (jogador.monstros[c] == 2) {
                                 teste = true;
@@ -96,10 +96,10 @@ public class Acoes{
                             x++;
                             teste = false;
                         }
-                    }
+                    }while (teste == true);
                     break;
                 case 4:
-                    while (teste == true) {
+                    do {
                         for (int c = 0; c < 3; c++) {
                             if (jogador.monstros[c] == 3) {
                                 teste = true;
@@ -112,10 +112,10 @@ public class Acoes{
                             x++;
                             teste = false;
                         }
-                    }
+                    }while (teste == true);
                     break;
                 case 5:
-                    while (teste == true) {
+                    do{
                         for (int c = 0; c < 3; c++) {
                             if (jogador.monstros[c] == 4) {
                                 teste = true;
@@ -128,10 +128,10 @@ public class Acoes{
                             x++;
                             teste = false;
                         }
-                    }
+                    }while (teste == true);
                     break;
                 case 6:
-                    while (teste == true) {
+                    do {
                         for (int c = 0; c < 3; c++) {
                             if (jogador.monstros[c] == 0) {
                                 teste = true;
@@ -144,7 +144,7 @@ public class Acoes{
                             x++;
                             teste = false;
                         }
-                    }
+                    }while (teste == true);
                     break;
                 case 9:
                     break;
@@ -152,7 +152,6 @@ public class Acoes{
                     System.out.println("Entrada inválida!");
                     break;
             }
-
         } while (x < 3 && respMenu != 9);
 
         Thread.sleep(2000);
