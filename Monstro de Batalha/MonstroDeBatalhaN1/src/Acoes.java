@@ -10,12 +10,12 @@ public class Acoes{
         Scanner ler = new Scanner(System.in);
         System.out.println("AÇÃO DO JOGADOR " + numPlayer + ": \n");
 
-        System.out.println("MOSNTRO SELECIONADO DO JOGADOR 1 ");
+        System.out.println("MONSTRO SELECIONADO DO JOGADOR 1 ");
         System.out.println(jogador1.nome[jogador1.monstros[jogador1.monstroSelecionado]] + ", Tipo: "
                 + jogador1.elemento[jogador1.monstros[jogador1.monstroSelecionado]] + ", Vida atual: "
                 + jogador1.vida[jogador1.monstros[jogador1.monstroSelecionado]] + "\n");
 
-        System.out.println("MOSNTRO SELECIONADO DO JOGADOR 2 ");
+        System.out.println("MONSTRO SELECIONADO DO JOGADOR 2 ");
         System.out.println(jogador2.nome[jogador2.monstros[jogador2.monstroSelecionado]] + ", Tipo: "
                 + jogador2.elemento[jogador2.monstros[jogador2.monstroSelecionado]] + ", Vida atual: "
                 + jogador2.vida[jogador2.monstros[jogador2.monstroSelecionado]] + "\n");
